@@ -1,0 +1,62 @@
+/* .content-section {
+  height: 100%;
+  width: 100%;
+  margin-top: 20px;
+  background-image: url(IMAGE/Wk29_LandingPagebanner.jpg);
+  background-size: cover;
+  padding: 45px;
+  object-position: center ;
+}
+.content-section h1{
+padding: 20px;
+padding-bottom:0px;
+}
+.content-section p{
+width: 200px;
+padding-left: 20px;
+} */
+
+@media screen and (min-width:500px) and (max-width:1000px) {
+  .img{
+    width:150px;
+  }
+  .content-section {
+    height: 30vh;
+    margin-top: 20px;
+    background-image: url(IMAGE/Wk29_LandingPagebanner.jpg);
+    background-size: cover;
+  }
+  .content-section h1{
+  padding: 20px;
+  padding-bottom:0px;
+  }
+.content-section p{
+  width: 200px;
+  padding-left: 20px;
+}
+}
+
+@media screen and (min-width:200px) and (max-width:500px) {
+  .img{
+    width:150px;
+  }
+  .content-section {
+    height: 30vh;
+    margin-top: 20px;
+    /* background-image: url(IMAGE/Wk29_LandingPagebanner.jpg); */
+    /* background-size: cover; */
+    background-color: rgb(252,224,238);
+  }
+  .content-section h1{
+  padding: 20px;
+  padding-bottom:0px;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+.content-section p{
+  /* width: 200px; */
+  padding-left: 20px;
+  text-align: center;
+}
+}
